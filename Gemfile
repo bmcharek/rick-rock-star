@@ -58,3 +58,5 @@ gem "therubyracer"
 gem "less-rails" 
 gem 'twitter-bootstrap-rails'
 gem 'libv8', '~> 3.11.8'
+#install a refinerycms-blog
+gem 'refinerycms-blog'
