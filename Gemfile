@@ -59,3 +59,5 @@ gem "therubyracer"
 gem "less-rails" 
 gem 'twitter-bootstrap-rails'
 gem 'libv8', '~> 3.11.8'
+#Chimping your mail
+gem 'refinerycms-mailchimp', :git => 'https://github.com/wirelab/refinerycms-mailchimp.git'#, :branch => 'feature/2.1.0'
