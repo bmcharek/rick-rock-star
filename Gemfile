@@ -4,11 +4,14 @@ gem 'rails', '3.2.14'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
+# install pg first
 
 group :development, :test do
   gem 'sqlite3'
 end
-
+group :production do
+  gem 'pg'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -48,3 +51,10 @@ gem 'refinerycms-acts-as-indexed', '~> 1.0.0'
 #  gem 'refinerycms-inquiries', '~> 2.1.0'
 #  gem 'refinerycms-search', '~> 2.1.0'
 #  gem 'refinerycms-page-images', '~> 2.1.0'
+
+gem 'refinerycms-events', :path => 'vendor/extensions'
+#bootstrapify
+gem "therubyracer"
+gem "less-rails" 
+gem 'twitter-bootstrap-rails'
+gem 'libv8', '~> 3.11.8'
