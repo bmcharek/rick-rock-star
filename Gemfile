@@ -60,5 +60,8 @@ gem "less-rails"
 gem 'twitter-bootstrap-rails'
 gem 'libv8', '~> 3.11.8'
 #Chimping your mail hm
-gem 'refinerycms-mailchimp', :github => 'wirelab/refinerycms-mailchimp', :branch => 'refinery-2.1'
-#gem 'refinerycms-mailchimp', :git => 'https://github.com/wirelab/refinerycms-mailchimp.git', :branch => 'feature/2.1.0'
+#gem 'refinerycms-mailchimp', :git => 'git@github.com:wirelab/refinerycms-mailchimp.git', :branch => 'refinery-2.1'
+#gem 'refinerycms-mailchimp', :github => 'Wirelab/refinerycms-mailchimp', :branch => 'refinery-2.1'
+#gem 'refinerycms-mailchimp', :git => 'https://github.com/wirelab/refinerycms-mailchimp.git' 
+#gem 'refinerycms-mailchimp', :github => 'Wirelab/refinerycms-mailchimp'
+#gem 'refinerycms-mailchimp'
